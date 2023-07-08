@@ -10,6 +10,7 @@ import { ProductComponent } from './admin/product/product.component';
 import { SellerComponent } from './admin/seller/seller.component';
 import { DriverComponent } from './admin/driver/driver.component';
 import { UserComponent } from './admin/user/user.component';
+import { OrderComponent } from './admin/order/order.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UserComponent } from './admin/user/user.component';
     SellerComponent,
     DriverComponent,
     UserComponent,
+    OrderComponent,
   ],
   imports: [
     BrowserModule,
